@@ -12,7 +12,7 @@ import { AppService } from './app.service';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'admin',
+      password: 'Root16.2014',
       database: 'notebooks',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true, 
@@ -20,7 +20,7 @@ import { AppService } from './app.service';
     NotebooksModule,
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService]
 
 })
 export class AppModule {}

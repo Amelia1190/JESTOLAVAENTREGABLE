@@ -74,6 +74,9 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
+    "coveragePathIgnorePatterns": [".module.ts, dto.ts "],
     "testEnvironment": "node"
+   
+    
   }
 }

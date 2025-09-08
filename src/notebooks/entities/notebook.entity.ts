@@ -5,7 +5,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 export class Notebook {
   @PrimaryGeneratedColumn()
   id: number;
-
+ 
   @Column()
   title: string;
 
